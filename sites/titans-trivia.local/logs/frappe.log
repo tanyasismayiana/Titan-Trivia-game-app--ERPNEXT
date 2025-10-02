@@ -1,0 +1,84 @@
+2025-09-26 12:29:15,887 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'option_b', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-26 12:31:08,597 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'option_c', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-26 17:10:07,096 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'option_c', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 09:43:49,920 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': '0cjdgjm6rl', 'selected_option': 'option_a', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 09:43:58,379 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': '0cjdgjm6rl', 'selected_option': 'option_c', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:09,593 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Gold', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:11,477 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Gold', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:14,514 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Silver', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:15,651 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Silver', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:18,766 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Nickel', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:21,280 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Gold', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 12:25:23,569 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question': 'i17dhqltou', 'selected_option': 'Oxygen', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:07:57,791 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'rnqn7lo417', 'selected_option': 'A', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:08:07,045 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'rnqn7lo417', 'selected_option': 'C', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:08:19,458 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'jmgtib8dsi', 'selected_option': 'B', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:10:51,153 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'pp0d49klo9', 'selected_option': 'C', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:14:10,590 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'pp0d49klo9', 'selected_option': 'C', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:14:31,929 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'us3jios1nl', 'selected_option': 'A', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:23:53,013 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'jkjm45p218', 'selected_option': 'A', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:38:07,822 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'jkjm45p218', 'selected_option': 'A', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:56:07,152 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'uv8uddrf3s', 'selected_option': 'B', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-29 16:58:33,849 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'question_id': 'jkjm45p218', 'selected_option': 'B', 'cmd': 'titans_trivia.api.quiz_api.submit_answer'}
+2025-09-30 13:41:36,697 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-30 13:46:26,472 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-30 13:47:00,765 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-30 13:52:47,856 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-30 14:01:08,878 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}
+2025-09-30 14:02:17,956 ERROR frappe New Exception collected in error log
+Site: titans-trivia.local
+Form Dict: {'report_name': 'Titan Trivia Leaderboard', 'filters': '{}', 'ignore_prepared_report': 'false', 'are_default_filters': 'true', 'cmd': 'frappe.desk.query_report.run'}

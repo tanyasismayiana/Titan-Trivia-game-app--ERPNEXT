@@ -1,0 +1,198 @@
+2025-09-18 15:44:03,115 DEBUG cd titansoft-games && python3 -m venv env
+2025-09-18 15:44:06,648 DEBUG cd titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet --upgrade pip
+2025-09-18 15:44:09,243 DEBUG cd titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet wheel
+2025-09-18 15:44:12,318 LOG Getting frappe
+2025-09-18 15:44:12,318 DEBUG cd titansoft-games/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2025-09-18 15:44:35,632 LOG Installing frappe
+2025-09-18 15:44:35,634 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet --upgrade -e /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/frappe 
+2025-09-18 15:45:27,918 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/frappe && yarn install --check-files
+2025-09-18 15:45:39,835 DEBUG cd titansoft-games && bench build
+2025-09-18 15:45:39,981 INFO /home/tanya/.local/bin/bench build
+2025-09-18 15:45:59,063 LOG setting up backups
+2025-09-18 15:45:59,195 LOG backups were set up
+2025-09-18 15:45:59,195 INFO Bench titansoft-games initialized
+2025-09-18 15:48:02,392 INFO /home/tanya/.local/bin/bench new-site titans-travia.local
+2025-09-18 15:51:53,306 INFO /home/tanya/.local/bin/bench get-app erpnext
+2025-09-18 15:51:54,065 LOG Getting erpnext
+2025-09-18 15:51:54,066 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git  --depth 1 --origin upstream
+2025-09-18 15:52:03,242 LOG Installing erpnext
+2025-09-18 15:52:03,242 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet --upgrade -e /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/erpnext 
+2025-09-18 15:52:12,428 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/erpnext && yarn install --check-files
+2025-09-18 15:52:12,873 DEBUG bench build --app erpnext
+2025-09-18 15:52:13,009 INFO /home/tanya/.local/bin/bench build --app erpnext
+2025-09-18 15:53:49,221 INFO /home/tanya/.local/bin/bench --site titan-trivia.local install-app erpnext
+2025-09-18 15:54:01,321 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app erpnext
+2025-09-18 15:54:34,918 INFO /home/tanya/.local/bin/bench --site titans-travia.local install-app erpnext
+2025-09-18 16:06:22,634 INFO /home/tanya/.local/bin/bench new-app titans-trivia
+2025-09-18 16:06:22,639 LOG creating new app titans_trivia
+2025-09-18 16:08:59,372 LOG Installing titans_trivia
+2025-09-18 16:08:59,375 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet --upgrade -e /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/titans_trivia 
+2025-09-18 16:09:01,666 DEBUG bench build --app titans_trivia
+2025-09-18 16:09:01,812 INFO /home/tanya/.local/bin/bench build --app titans_trivia
+2025-09-18 16:10:25,059 INFO /home/tanya/.local/bin/bench --site titans-travia.local install-app titans_trivia
+2025-09-18 16:10:48,696 INFO /home/tanya/.local/bin/bench start
+2025-09-18 16:10:49,140 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-18 16:10:49,152 INFO /home/tanya/.local/bin/bench watch
+2025-09-18 16:10:49,153 INFO /home/tanya/.local/bin/bench worker
+2025-09-18 16:10:49,210 INFO /home/tanya/.local/bin/bench schedule
+2025-09-18 16:12:52,231 INFO /home/tanya/.local/bin/bench use titans-travia.local
+2025-09-18 16:12:57,384 INFO /home/tanya/.local/bin/bench start
+2025-09-18 16:12:57,760 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-18 16:12:57,778 INFO /home/tanya/.local/bin/bench schedule
+2025-09-18 16:12:57,799 INFO /home/tanya/.local/bin/bench worker
+2025-09-18 16:12:57,828 INFO /home/tanya/.local/bin/bench watch
+2025-09-18 16:16:15,633 INFO /home/tanya/.local/bin/bench get-app erpnext
+2025-09-18 16:16:29,954 INFO App moved from apps/erpnext to archived/apps/erpnext-2025-09-18
+2025-09-18 16:16:29,957 LOG Getting erpnext
+2025-09-18 16:16:29,957 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch develop --depth 1 --origin upstream
+2025-09-18 16:16:39,566 LOG Installing erpnext
+2025-09-18 16:16:39,566 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games && /home/tanya/Frappe/Titan-Trivia/titansoft-games/env/bin/python -m pip install --quiet --upgrade -e /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/erpnext 
+2025-09-18 16:16:42,341 DEBUG cd /home/tanya/Frappe/Titan-Trivia/titansoft-games/apps/erpnext && yarn install --check-files
+2025-09-18 16:16:44,180 DEBUG bench build --app erpnext
+2025-09-18 16:16:44,335 INFO /home/tanya/.local/bin/bench build --app erpnext
+2025-09-18 16:17:31,636 INFO /home/tanya/.local/bin/bench --site titans-travia.local install-app erpnext
+2025-09-18 16:19:07,075 INFO /home/tanya/.local/bin/bench drop-site titans-travia.local --force
+2025-09-18 16:19:49,707 INFO /home/tanya/.local/bin/bench new-site titans-trivia.local
+2025-09-18 16:23:42,842 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app erpnext
+2025-09-18 16:48:57,641 INFO /home/tanya/.local/bin/bench update --patch
+2025-09-18 16:48:59,215 WARNING shallow_clone is set in your bench config.
+However without passing the --reset flag, your repositories will be unshallowed.
+To avoid this, cancel this operation and run `bench update --reset`.
+
+Consider the consequences of `git reset --hard` on your apps before you run that.
+To avoid seeing this warning, set shallow_clone to false in your common_site_config.json
+		
+2025-09-18 17:00:50,751 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app erpnext
+2025-09-18 18:00:02,187 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-18 19:11:25,927 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app erpnext
+2025-09-18 19:11:43,350 INFO /home/tanya/.local/bin/bench start
+2025-09-18 19:12:52,172 INFO /home/tanya/.local/bin/bench start
+2025-09-18 19:12:52,717 INFO /home/tanya/.local/bin/bench watch
+2025-09-18 19:12:52,745 INFO /home/tanya/.local/bin/bench schedule
+2025-09-18 19:12:52,755 INFO /home/tanya/.local/bin/bench worker
+2025-09-18 19:12:52,804 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-18 19:14:04,799 INFO /home/tanya/.local/bin/bench use titans-trivia.local
+2025-09-18 19:14:44,480 INFO /home/tanya/.local/bin/bench use titans-trivia.local
+2025-09-18 19:14:48,296 INFO /home/tanya/.local/bin/bench start
+2025-09-18 19:14:48,867 INFO /home/tanya/.local/bin/bench schedule
+2025-09-18 19:14:48,870 INFO /home/tanya/.local/bin/bench worker
+2025-09-18 19:14:48,928 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-18 19:14:48,943 INFO /home/tanya/.local/bin/bench watch
+2025-09-18 19:17:38,402 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app erpnext
+2025-09-18 19:18:01,109 INFO /home/tanya/.local/bin/bench --site titans-trivia.local install-app titans_trivia
+2025-09-19 00:00:01,374 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-19 18:00:02,092 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-20 00:00:01,947 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-21 13:19:01,248 INFO /home/tanya/.local/bin/bench start
+2025-09-21 13:19:01,708 INFO /home/tanya/.local/bin/bench worker
+2025-09-21 13:19:01,709 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-21 13:19:01,725 INFO /home/tanya/.local/bin/bench schedule
+2025-09-21 13:19:01,741 INFO /home/tanya/.local/bin/bench watch
+2025-09-21 13:50:51,776 INFO /home/tanya/.local/bin/bench --site titans-trivia.local clear-cache
+2025-09-21 13:50:59,081 INFO /home/tanya/.local/bin/bench start
+2025-09-21 13:50:59,383 INFO /home/tanya/.local/bin/bench watch
+2025-09-21 13:50:59,436 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-21 13:50:59,448 INFO /home/tanya/.local/bin/bench schedule
+2025-09-21 13:50:59,452 INFO /home/tanya/.local/bin/bench worker
+2025-09-21 18:00:01,902 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-22 18:00:02,284 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-23 00:00:01,616 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-23 00:47:48,213 INFO /home/tanya/.local/bin/bench start
+2025-09-23 00:47:48,950 INFO /home/tanya/.local/bin/bench schedule
+2025-09-23 00:47:48,962 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-23 00:47:48,976 INFO /home/tanya/.local/bin/bench worker
+2025-09-23 00:47:49,003 INFO /home/tanya/.local/bin/bench watch
+2025-09-23 00:50:45,447 INFO /home/tanya/.local/bin/bench use titans-trivia.local
+2025-09-23 18:00:02,110 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-25 18:00:01,680 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-25 18:56:20,350 INFO /home/tanya/.local/bin/bench --site titans-trivia.local enable-scheduler
+2025-09-25 18:56:32,575 INFO /home/tanya/.local/bin/bench --site titans-trivia.local doctor
+2025-09-25 18:56:52,526 INFO /home/tanya/.local/bin/bench start
+2025-09-25 18:56:53,099 INFO /home/tanya/.local/bin/bench schedule
+2025-09-25 18:56:53,106 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-25 18:56:53,144 INFO /home/tanya/.local/bin/bench watch
+2025-09-25 18:56:53,157 INFO /home/tanya/.local/bin/bench worker
+2025-09-25 18:57:23,027 INFO /home/tanya/.local/bin/bench --site titans-trivia.local doctor
+2025-09-25 18:59:51,218 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:08:24,453 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:13:07,398 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:17:49,381 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:19:07,831 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:22:37,874 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:25:16,497 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:27:30,003 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:28:03,177 INFO /home/tanya/.local/bin/bench --site titans-trivia.local migrate
+2025-09-25 19:28:11,485 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 19:52:41,509 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.fetch_quiz_question
+2025-09-25 21:15:48,708 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.daily_quiz_job
+2025-09-25 21:18:22,797 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.daily_quiz_job
+2025-09-25 21:21:02,034 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.daily_quiz_job
+2025-09-25 21:22:38,624 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-25 21:26:17,784 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.daily_quiz_job
+2025-09-25 21:31:48,924 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-25 23:10:27,642 INFO /home/tanya/.local/bin/bench --site titans-trivia.local execute titans_trivia.api.quiz_api.daily_quiz_job
+2025-09-26 00:00:02,220 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-26 00:41:50,701 INFO /home/tanya/.local/bin/bench start
+2025-09-26 00:41:51,348 INFO /home/tanya/.local/bin/bench schedule
+2025-09-26 00:41:51,365 INFO /home/tanya/.local/bin/bench worker
+2025-09-26 00:41:51,403 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-26 00:41:51,409 INFO /home/tanya/.local/bin/bench watch
+2025-09-26 11:44:45,427 INFO /home/tanya/.local/bin/bench start
+2025-09-26 11:44:45,993 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-26 11:44:46,017 INFO /home/tanya/.local/bin/bench worker
+2025-09-26 11:44:46,032 INFO /home/tanya/.local/bin/bench schedule
+2025-09-26 11:44:46,032 INFO /home/tanya/.local/bin/bench watch
+2025-09-26 12:00:02,165 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-26 18:00:01,886 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-27 00:00:01,831 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-28 00:00:01,629 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-29 07:25:03,377 INFO /home/tanya/.local/bin/bench start
+2025-09-29 07:25:04,382 INFO /home/tanya/.local/bin/bench schedule
+2025-09-29 07:25:04,402 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-29 07:25:04,420 INFO /home/tanya/.local/bin/bench worker
+2025-09-29 07:25:04,431 INFO /home/tanya/.local/bin/bench watch
+2025-09-29 12:00:01,911 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-29 15:05:59,964 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-29 15:26:46,071 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-29 15:45:19,743 INFO /home/tanya/.local/bin/bench start
+2025-09-29 15:45:20,336 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-29 15:45:20,349 INFO /home/tanya/.local/bin/bench schedule
+2025-09-29 15:45:20,360 INFO /home/tanya/.local/bin/bench worker
+2025-09-29 15:45:20,381 INFO /home/tanya/.local/bin/bench watch
+2025-09-29 15:45:44,167 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-29 16:03:32,732 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-29 17:47:23,564 INFO /home/tanya/.local/bin/bench start
+2025-09-29 17:47:25,018 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-29 17:47:25,051 INFO /home/tanya/.local/bin/bench schedule
+2025-09-29 17:47:25,055 INFO /home/tanya/.local/bin/bench worker
+2025-09-29 17:47:25,159 INFO /home/tanya/.local/bin/bench watch
+2025-09-29 18:00:02,449 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-30 09:06:33,681 INFO /home/tanya/.local/bin/bench start
+2025-09-30 09:06:35,933 INFO /home/tanya/.local/bin/bench worker
+2025-09-30 09:06:35,933 INFO /home/tanya/.local/bin/bench watch
+2025-09-30 09:06:35,951 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-30 09:06:35,967 INFO /home/tanya/.local/bin/bench schedule
+2025-09-30 11:26:58,653 INFO /home/tanya/.local/bin/bench --site your-site-name new-page quiz-history
+2025-09-30 11:28:22,099 INFO /home/tanya/.local/bin/bench --site titans-trivia.local new-page quiz-history
+2025-09-30 12:00:01,421 INFO /home/tanya/.local/bin/bench --verbose --site all backup
+2025-09-30 14:21:31,739 INFO /home/tanya/.local/bin/bench console
+2025-09-30 14:30:09,649 INFO /home/tanya/.local/bin/bench --site titans-trivia.local reinstall
+2025-09-30 14:49:21,768 INFO /home/tanya/.local/bin/bench clear-cache
+2025-09-30 14:49:23,252 INFO /home/tanya/.local/bin/bench restart
+2025-09-30 14:49:24,060 INFO /home/tanya/.local/bin/bench enable-scheduler
+2025-09-30 14:49:42,708 INFO /home/tanya/.local/bin/bench execute titans_trivia.titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 14:56:08,870 INFO /home/tanya/.local/bin/bench execute titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 14:59:43,680 INFO /home/tanya/.local/bin/bench execute titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 14:59:53,863 INFO /home/tanya/.local/bin/bench clear-cache
+2025-09-30 14:59:55,219 INFO /home/tanya/.local/bin/bench restart
+2025-09-30 15:00:11,911 INFO /home/tanya/.local/bin/bench execute titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 15:03:45,141 INFO /home/tanya/.local/bin/bench execute titans_trivia.titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 15:09:32,305 INFO /home/tanya/.local/bin/bench --site titans-trivia.local console
+2025-09-30 15:14:46,683 INFO /home/tanya/.local/bin/bench execute titans_trivia.titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 15:16:39,668 INFO /home/tanya/.local/bin/bench execute titans_trivia.titans_trivia.leaderboard_email.send_leaderboard_email
+2025-09-30 16:26:20,709 INFO /home/tanya/.local/bin/bench start
+2025-09-30 16:26:21,306 INFO /home/tanya/.local/bin/bench watch
+2025-09-30 16:26:21,310 INFO /home/tanya/.local/bin/bench schedule
+2025-09-30 16:26:21,319 INFO /home/tanya/.local/bin/bench serve --port 8000
+2025-09-30 16:26:21,320 INFO /home/tanya/.local/bin/bench worker
+2025-10-01 12:00:01,453 INFO /home/tanya/.local/bin/bench --verbose --site all backup

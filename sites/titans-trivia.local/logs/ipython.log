@@ -1,0 +1,53 @@
+2025-09-25 21:26:13,933 INFO ipython === bench console session ===
+2025-09-25 21:26:13,934 INFO ipython [f.fieldname for f in frappe.get_meta("Quiz Question").fields]
+2025-09-25 21:26:13,934 INFO ipython === session end ===
+2025-09-25 23:10:21,774 INFO ipython === bench console session ===
+2025-09-25 23:10:21,774 INFO ipython frappe.get_all("Quiz Question", fields=["name", "question_text", "is_active"])
+2025-09-25 23:10:21,774 INFO ipython frappe.db.set_value("Quiz Question", "0cjdgjm6rl", "is_active", 1)
+frappe.db.set_value("Quiz Question", "i17dhqltou", "is_active", 1)
+frappe.db.commit()
+2025-09-25 23:10:21,775 INFO ipython === session end ===
+2025-09-29 15:26:43,010 INFO ipython === bench console session ===
+2025-09-29 15:26:43,011 INFO ipython from titans_trivia.api import quiz_api
+2025-09-29 15:26:43,012 INFO ipython res = quiz_api.import_trivia_into_db(amount=10, activate=1)
+2025-09-29 15:26:43,012 INFO ipython print(res)
+2025-09-29 15:26:43,013 INFO ipython frappe.call('titans_trivia.api.quiz_api.import_trivia_into_db', {'amount': 10})
+2025-09-29 15:26:43,013 INFO ipython from titans_trivia.api import quiz_api
+res = quiz_api.import_trivia_into_db(amount=10)
+print(res)
+2025-09-29 15:26:43,014 INFO ipython === session end ===
+2025-09-29 15:45:40,821 INFO ipython === bench console session ===
+2025-09-29 15:45:40,821 INFO ipython from titans_trivia.api import quiz_api
+res = quiz_api.import_trivia_into_db(amount=5)
+print(res)
+2025-09-29 15:45:40,822 INFO ipython from titans_trivia.api import quiz_api
+res = quiz_api.import_trivia_into_db(amount=10)
+print(res)
+2025-09-29 15:45:40,822 INFO ipython from frappe import cache
+print(cache().get_value("opentdb_token"))
+2025-09-29 15:45:40,822 INFO ipython import requests, frappe
+resp = requests.get("https://opentdb.com/api_token.php?command=request")
+data = resp.json()
+print(data)
+2025-09-29 15:45:40,822 INFO ipython frappe.cache().set_value("opentdb_token", "631ec4f41ec884846ae0a40a7d3485e60e469661247e4f7376da5c8ae006b7d7")
+print("Stored token:", frappe.cache().get_value("opentdb_token"))
+2025-09-29 15:45:40,823 INFO ipython from titans_trivia.api import quiz_api
+res = quiz_api.import_trivia_into_db(amount=10)
+print(res)
+2025-09-29 15:45:40,823 INFO ipython === session end ===
+2025-09-29 16:03:30,931 INFO ipython === bench console session ===
+2025-09-29 16:03:30,932 INFO ipython from titans_trivia.api import quiz_api
+res = quiz_api.import_trivia_into_db(amount=10)
+print(res)
+2025-09-29 16:03:30,933 INFO ipython frappe.get_all("Quiz Question", filters={"is_active": 1}, fields=["name", "question_text", "option_a", "option_b", "option_c", "option_d", "correct_option"])
+2025-09-29 16:03:30,933 INFO ipython === session end ===
+2025-09-30 14:28:41,426 INFO ipython === bench console session ===
+2025-09-30 14:28:41,429 INFO ipython frappe.get_all("DocType", filters={"name": "Scheduled Report"})
+2025-09-30 14:28:41,430 INFO ipython frappe.get_perms("Scheduled Report")
+2025-09-30 14:28:41,430 INFO ipython frappe.get_all("DocType", filters={"name": "Scheduled Report"})
+2025-09-30 14:28:41,430 INFO ipython frappe.get_roles(frappe.session.user)
+2025-09-30 14:28:41,431 INFO ipython frappe.get_all("DocType", filters={"name": "Scheduled Report"})
+2025-09-30 14:28:41,431 INFO ipython === session end ===
+2025-09-30 16:24:22,618 INFO ipython === bench console session ===
+2025-09-30 16:24:22,618 INFO ipython frappe.get_all("DocType", filters={"name": ["like", "%Quiz%"]})
+2025-09-30 16:24:22,618 INFO ipython [f.fieldname for f in frappe.get_meta("Quiz History").fields]

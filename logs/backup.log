@@ -1,0 +1,108 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250918_203002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-18 20:30:03.886683
+Config  : ./titans-trivia.local/private/backups/20250918_203002-titans-trivia_local-site_config_backup.json 94.0B
+Database: ./titans-trivia.local/private/backups/20250918_203002-titans-trivia_local-database.sql.gz         230.4KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250919_000002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-19 00:00:03.226758
+Config  : ./titans-trivia.local/private/backups/20250919_000002-titans-trivia_local-site_config_backup.json 94.0B
+Database: ./titans-trivia.local/private/backups/20250919_000002-titans-trivia_local-database.sql.gz         239.6KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250919_180004-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-19 18:00:06.369023
+Config  : ./titans-trivia.local/private/backups/20250919_180004-titans-trivia_local-site_config_backup.json 94.0B
+Database: ./titans-trivia.local/private/backups/20250919_180004-titans-trivia_local-database.sql.gz         241.9KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250920_000002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-20 00:00:03.683887
+Config  : ./titans-trivia.local/private/backups/20250920_000002-titans-trivia_local-site_config_backup.json 94.0B
+Database: ./titans-trivia.local/private/backups/20250920_000002-titans-trivia_local-database.sql.gz         241.9KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250921_180003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-21 18:00:05.109395
+Config  : ./titans-trivia.local/private/backups/20250921_180003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250921_180003-titans-trivia_local-database.sql.gz         247.8KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250922_180003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-22 18:00:05.124065
+Config  : ./titans-trivia.local/private/backups/20250922_180003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250922_180003-titans-trivia_local-database.sql.gz         253.6KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250923_000002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-23 00:00:04.150262
+Config  : ./titans-trivia.local/private/backups/20250923_000002-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250923_000002-titans-trivia_local-database.sql.gz         253.6KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250923_180003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-23 18:00:05.391314
+Config  : ./titans-trivia.local/private/backups/20250923_180003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250923_180003-titans-trivia_local-database.sql.gz         260.7KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250925_180003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-25 18:00:05.705857
+Config  : ./titans-trivia.local/private/backups/20250925_180003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250925_180003-titans-trivia_local-database.sql.gz         260.7KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250926_000003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-26 00:00:04.241711
+Config  : ./titans-trivia.local/private/backups/20250926_000003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250926_000003-titans-trivia_local-database.sql.gz         267.0KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250926_120003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-26 12:00:04.130314
+Config  : ./titans-trivia.local/private/backups/20250926_120003-titans-trivia_local-site_config_backup.json 116.0B
+Database: ./titans-trivia.local/private/backups/20250926_120003-titans-trivia_local-database.sql.gz         272.5KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250926_180002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-26 18:00:03.090308
+Config  : ./titans-trivia.local/private/backups/20250926_180002-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250926_180002-titans-trivia_local-database.sql.gz         287.3KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250927_000003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-27 00:00:04.724627
+Config  : ./titans-trivia.local/private/backups/20250927_000003-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250927_000003-titans-trivia_local-database.sql.gz         293.0KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250928_000002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-28 00:00:03.333116
+Config  : ./titans-trivia.local/private/backups/20250928_000002-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250928_000002-titans-trivia_local-database.sql.gz         297.0KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250929_120003-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-29 12:00:04.111847
+Config  : ./titans-trivia.local/private/backups/20250929_120003-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250929_120003-titans-trivia_local-database.sql.gz         293.1KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250929_180004-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-29 18:00:07.356234
+Config  : ./titans-trivia.local/private/backups/20250929_180004-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250929_180004-titans-trivia_local-database.sql.gz         305.0KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20250930_120001-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-09-30 12:00:03.375167
+Config  : ./titans-trivia.local/private/backups/20250930_120001-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20250930_120001-titans-trivia_local-database.sql.gz         309.3KiB
+Backup for Site titans-trivia.local has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_a19e2f43b3f30353 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _a19e2f43b3f30353 | /usr/bin/gzip >> ./titans-trivia.local/private/backups/20251001_120002-titans-trivia_local-database.sql.gz
+
+Backup Summary for titans-trivia.local at 2025-10-01 12:00:04.395965
+Config  : ./titans-trivia.local/private/backups/20251001_120002-titans-trivia_local-site_config_backup.json 183.0B
+Database: ./titans-trivia.local/private/backups/20251001_120002-titans-trivia_local-database.sql.gz         325.2KiB
+Backup for Site titans-trivia.local has been successfully completed
